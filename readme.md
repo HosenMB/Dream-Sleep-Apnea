@@ -1,8 +1,9 @@
 # Apnea Detection Dataset Preparation
 
-This repository focuses on preparing a high-quality dataset for apnea detection, sourced from the [Physionet apnea dataset]((https://physionet.org/content/apnea-ecg/1.0.0/)). It encompasses various preprocessing and filtering steps designed to enhance the quality of the images, ensuring optimal performance in deep learning model training.
+This repository focuses on preparing a high-quality dataset for apnea detection, sourced from the [Physionet apnea dataset](https://physionet.org/content/apnea-ecg/1.0.0/). It encompasses various preprocessing and filtering steps designed to enhance the quality of the images, ensuring optimal performance in deep learning model training.
 
 By systematically processing the dataset, we aim to improve the accuracy and reliability of apnea detection models, facilitating advancements in sleep health diagnostics.
+
 
 ## 1. Dataset Generation
 
