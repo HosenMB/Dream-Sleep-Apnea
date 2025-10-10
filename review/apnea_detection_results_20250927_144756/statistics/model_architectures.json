@@ -1,0 +1,194 @@
+{
+  "VGG16": {
+    "total_params": 15108929,
+    "trainable_params": "394241",
+    "non_trainable_params": "14714688",
+    "num_layers": 9,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "MobileNet": {
+    "total_params": 3885249,
+    "trainable_params": "656385",
+    "non_trainable_params": "3228864",
+    "num_layers": 9,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "ResNet50": {
+    "total_params": 23850113,
+    "trainable_params": "262401",
+    "non_trainable_params": "23587712",
+    "num_layers": 7,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "Xception": {
+    "total_params": 21123881,
+    "trainable_params": "262401",
+    "non_trainable_params": "20861480",
+    "num_layers": 7,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "DenseNet121": {
+    "total_params": 7168833,
+    "trainable_params": "131329",
+    "non_trainable_params": "7037504",
+    "num_layers": 7,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "LSTM": {
+    "total_params": 232577,
+    "trainable_params": "232577",
+    "non_trainable_params": 0,
+    "num_layers": 12,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "Bi-LSTM": {
+    "total_params": 199809,
+    "trainable_params": "199809",
+    "non_trainable_params": 0,
+    "num_layers": 12,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "GRU": {
+    "total_params": 200065,
+    "trainable_params": "200065",
+    "non_trainable_params": 0,
+    "num_layers": 12,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "Proposed_Model": {
+    "total_params": 1858977,
+    "trainable_params": "1855457",
+    "non_trainable_params": "3520",
+    "num_layers": 57,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "Residual_Only": {
+    "total_params": 2794913,
+    "trainable_params": "2790369",
+    "non_trainable_params": "4544",
+    "num_layers": 56,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "Inception_Only": {
+    "total_params": 909473,
+    "trainable_params": "907617",
+    "non_trainable_params": "1856",
+    "num_layers": 44,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  },
+  "Baseline_CNN": {
+    "total_params": 422785,
+    "trainable_params": "421825",
+    "non_trainable_params": "960",
+    "num_layers": 15,
+    "input_shape": [
+      null,
+      128,
+      180,
+      1
+    ],
+    "output_shape": [
+      null,
+      1
+    ]
+  }
+}

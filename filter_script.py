@@ -26,7 +26,7 @@ def calculate_image_metrics(image):
     image = image.astype(float) / 255.0  # Normalize to [0,1] range
     snr = compute_snr(image)
     entropy = compute_entropy(image)
-    contrast = compute_contrast(image)
+    contsaverast = compute_contrast(image)
     img_skew = skew(image.flatten())
     img_kurtosis = kurtosis(image.flatten())
     min_intensity = np.min(image)
@@ -109,3 +109,4 @@ if __name__ == "__main__":
     filter_images(non_apnea_input_folder, non_apnea_output_folder, is_apnea=False)
 
     print("Filtering complete!")
+

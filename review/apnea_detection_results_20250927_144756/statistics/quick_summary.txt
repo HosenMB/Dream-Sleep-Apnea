@@ -1,0 +1,23 @@
+=== APNEA DETECTION MODEL COMPARISON SUMMARY ===
+
+BEST PERFORMING MODEL: Proposed_Model
+Best Test Accuracy: 0.9993
+Best Test Loss: 0.0066
+
+ALL MODEL RESULTS:
+VGG16: 0.9812 accuracy, 0.0571 loss
+MobileNet: 0.9861 accuracy, 0.0345 loss
+ResNet50: 0.9415 accuracy, 0.2336 loss
+Xception: 0.9763 accuracy, 0.0730 loss
+DenseNet121: 0.9847 accuracy, 0.0446 loss
+LSTM: 0.9791 accuracy, 0.0501 loss
+Bi-LSTM: 0.9882 accuracy, 0.0310 loss
+GRU: 0.9868 accuracy, 0.0409 loss
+Proposed_Model: 0.9993 accuracy, 0.0066 loss
+Residual_Only: 0.9972 accuracy, 0.0106 loss
+Inception_Only: 0.9958 accuracy, 0.0112 loss
+Baseline_CNN: 0.9930 accuracy, 0.0205 loss
+
+Total Models Tested: 12
+Dataset: Binary Classification Apnea Dataset
+Generated: 2025-09-27 14:47:42
