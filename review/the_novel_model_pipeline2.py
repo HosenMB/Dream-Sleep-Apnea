@@ -15,9 +15,6 @@ Original file is located at
     https://colab.research.google.com/drive/18cDsnPaybH6wdBRXYiYhngIoQa3Y5DUo
 """
 
-!kaggle datasets download -d masud1901/binary-classification-data-for-apnea-detection
-!unzip binary-classification-data-for-apnea-detection.zip
-
 import os
 import random
 import cv2
